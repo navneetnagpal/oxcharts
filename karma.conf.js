@@ -19,9 +19,14 @@ module.exports = function(config) {
             'app/bower_components/angular-sanitize/angular-sanitize.js',
             'app/bower_components/angular-ui-router/release/angular-ui-router.js',
             'app/bower_components/angular-translate/angular-translate.js',
-            'test/mock/**/*.js',
+            'app/bower_components/d3/d3.js',
+            'app/scripts/global/i18/*.js',
             'app/scripts/*.js',
-            'app/scripts/**/*.js',
+            'app/scripts/global/*.js',
+            'app/scripts/services/*.js',
+            'app/scripts/controllers/*.js',
+            'app/scripts/directives/*.js',
+            'test/mock/**/*.js',
             'test/spec/**/*.js'
         ],
 
